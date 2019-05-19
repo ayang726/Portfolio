@@ -1,0 +1,92 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+body{
+      font-size: 1.1em;
+      background-color: #eee
+}
+
+h1{
+    font-size: 3em;
+    font-weight: 700;
+}
+
+p{
+    color: #777;
+}
+
+.subtitle, i {
+    color: #ffc815;
+}
+
+.btn-primary {
+    background-color: #fff;
+    color: black;
+    border-color: rgba(50, 50, 50, .4);
+}
+
+.btn-primary:hover{
+    background-color: #ffc815;
+    border-color: #ffc815;
+}
+
+.tolltip{
+    background-color: #ffc815;
+    margin-bottom: 20px;
+    display: inline-block;
+    height: 50px;
+    width: 90px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 15%;
+    color: #fff;
+    position: relative;
+    box-sizing: border-box;
+}
+.tolltip .tolltip-triangle{
+    position: absolute;
+    bottom: -15px;
+    right: 0;
+    width: 0; 
+    height: 0; 
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid #ffc815;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 50px 0;
+}
+#hero .container{
+    padding: 100px 20%;
+    background-image: url("../images.")
+}
+
+#hire-me {
+    width: 150px;
+    border-radius: 50px;
+}
+.offset{
+    height: 50px;
+}
+.stats-card{
+    text-align: center;
+    margin-bottom: 30px;
+    height: 150px;
+    border-color: white;
+    box-shadow: #aaa 1px 1px 20px;
+}
+
+.portfolio-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 70px;
+    margin-top: 20px;
+}
+
+
+.portfolio-card img{
+    height: 300px;
+}
