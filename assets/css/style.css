@@ -61,7 +61,6 @@ p{
 }
 #hero .container{
     padding: 100px 20%;
-    background-image: url("../images.")
 }
 
 #hire-me {
@@ -89,4 +88,8 @@ p{
 
 .portfolio-card img{
     height: 300px;
+}
+
+#contact a, #portfolio a{
+    width: 100px;
 }
